@@ -1,3 +1,6 @@
 module.exports = {
-  lintOnSave: true
+  lintOnSave: true,
+  chainWebpack: config => {
+    config.output.publicPath(process.env.NODE_ENV === "production" ? "/contractExample" : "/");
+  }
 };
