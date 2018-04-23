@@ -1,7 +1,8 @@
 <template>
   <div class="page">
     <h1>Договор № <inline-edit width="10em" v-model="document.item1"></inline-edit></h1>
-    <h6 id="">по поиску приобретателя Объекта, подбору Альтернативы и оформлению сделок</h6>
+    <h6 id="">по поиску приобретателя Объекта, подбору Альтернативы и&nbsp;оформлению сделок</h6>
+    <p>1.9. Явиться лично и обеспечить явку всех собственников и пользователей Объекта, а также приобретателей Альтернативы с документами, удостоверяющими личность и другими документами, необходимыми для совершения сделок, а также необходимой/недостающей денежной суммой для оплаты полной стоимости Альтернативы, в назначенные Исполнителем день, время.</p>
     <p><inline-edit width="10em" v-model="document.item2"></inline-edit>, Москва</p>
     <p>1. <inline-edit width="35em" v-model="document.item3"></inline-edit>, паспорт серии <inline-edit width="10em" v-model="document.item4"></inline-edit> №<inline-edit width="10em" v-model="document.item5"></inline-edit>, выдан <inline-edit width="2.5em" v-model="document.item6"></inline-edit>.<inline-edit width="2.5em" v-model="document.item7"></inline-edit>.201<inline-edit width="2em" v-model="document.item8"></inline-edit>  <inline-edit width="37em" v-model="document.item9"></inline-edit>; зарег. по месту жительства: <inline-edit width="28em" v-model="document.item10"></inline-edit> <inline-edit width="37em" v-model="document.item11"></inline-edit>,</p>
     <p>2. <inline-edit width="35em" v-model="document.item12"></inline-edit>, паспорт серии <inline-edit width="10em" v-model="document.item13"></inline-edit> №<inline-edit width="10em" v-model="document.item14"></inline-edit>, выдан <inline-edit width="2.5em" v-model="document.item15"></inline-edit>.<inline-edit width="2.5em" v-model="document.item16"></inline-edit>.201<inline-edit width="2em" v-model="document.item17"></inline-edit>  <inline-edit width="37em" v-model="document.item18"></inline-edit>; зарег. по месту жительства: <inline-edit width="28em" v-model="document.item19"></inline-edit> <inline-edit width="37em" v-model="document.item20"></inline-edit>,</p>
@@ -26,7 +27,7 @@
     <p>2.1.2. На подбор Альтернативы согласно Заявке на подбор.</p>
     <p>2.1.3. На организацию заключения сделок по отчуждению Объекта и по приобретению Альтернативы в следующем порядке: <inline-edit width="12.5em" v-model="document.item45"></inline-edit> <inline-edit width="37.5em" v-model="document.item46"></inline-edit>.</p>
     <p>Денежные средства от продажи Объекта используются для оплаты Альтернативы.</p>
-    <p>2.2. Альтернатива будет оформляться в собственность следующего лица: <inline-edit width="83em" v-model="document.item47"></inline-edit> (далее — приобретатель Альтернативы).</p>
+    <p>2.2. Альтернатива будет оформляться в собственность следующего лица: <inline-edit width="47em" v-model="document.item47"></inline-edit> (далее — приобретатель Альтернативы).</p>
     <p>2.2.1. В случае, если приобретатель Альтернативы не указан Заказчиком, а также в случае невозможности оформления Альтернативы в собственность указанного Заказчиком лица, приобретателем Альтернативы является Заказчик.</p>
     <p>3. Права и обязанности Заказчика</p>
     <p>3.1. Заказчик вправе запрашивать у Исполнителя информацию о ходе выполнения обязательств по настоящему договору.</p>
@@ -70,7 +71,7 @@
     <p>3.2.11. В период действия настоящего договора не предпринимать каких-либо действий (лично или через других посредников) по предмету настоящего договора без письменного согласования с исполнителем, а также после нахождения Исполнителем приобретателя на Объект не совершать действий, направленных на отчуждение третьим лицам права собственности на Объект.</p>
     <p>3.3. Заказчик гарантирует истинность следующих сведений:</p>
     <p>3.3.1. Объект никому не отчужден и не обещан, не обременен правами третьих лиц (в частности, нет лиц, признанных безвестно отсутствующими или объявленных умершими в судебном порядке; находящихся в армии или в местах лишения свободы; выбывших в интернаты, дома инвалидов и иные учреждения социальной защиты), арендой, коммерческим наймом, возмездным или безвозмездным пользованием, залогом и др.; в споре и под арестом/ запрещением не состоит; Объект был оплачен без использования средств материнского капитала; право распоряжения им не ограничено.</p>
-    <p>3.3.2. В Объекте зарегистрированы: <inline-edit width="20.5em" v-model="document.item52"></inline-edit> <inline-edit width="75.5em" v-model="document.item53"></inline-edit>, проживают без регистрации: <inline-edit width="24em" v-model="document.item54"></inline-edit> <inline-edit width="75.5em" v-model="document.item55"></inline-edit>.</p>
+    <p>3.3.2. В Объекте зарегистрированы: <inline-edit width="20.5em" v-model="document.item52"></inline-edit> <inline-edit width="47em" v-model="document.item53"></inline-edit>, проживают без регистрации: <inline-edit width="24em" v-model="document.item54"></inline-edit> <inline-edit width="47em" v-model="document.item55"></inline-edit>.</p>
     <p>3.3.3. Из числа собственников и пользователей Объекта:</p>
     <p>гр. <inline-edit width="23em" v-model="document.item57"></inline-edit> лишен/а/ы дееспособности, гр. <inline-edit width="20em" v-model="document.item57"></inline-edit> ограничен/а/ы в дееспособности, гр. <inline-edit width="24.5em" v-model="document.item58"></inline-edit> состоят на учете в ПНД, гр. <inline-edit width="25.5em" v-model="document.item59"></inline-edit> состоят на учете в НД. </p>
     <p>Остальные собственники и пользователи Объекта не ограничены и не лишены дееспособности, на учетах в ПНД и НД не состоят.</p>
@@ -143,7 +144,6 @@
     <p><inline-edit width="9.5em" v-model="document.item1"></inline-edit>/<inline-edit width="9em" v-model="document.item1"></inline-edit></p>
     <p>М.П.</p>
     <p>Договор</p>
-    <async-component/>
   </div>
 </template>
 
