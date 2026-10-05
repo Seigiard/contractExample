@@ -4,6 +4,7 @@
   "private": true,
   "main": "index.js",
   "scripts": {
+    "lint:anti-slop": "tools/oxlint/node_modules/.bin/oxlint --vue-plugin --config .oxlintrc.json .",
     "start": "vue-cli-service serve --open",
     "serve": "vue-cli-service serve --open",
     "build": "vue-cli-service build",
